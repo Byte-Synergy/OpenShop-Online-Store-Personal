@@ -2,21 +2,21 @@
   {
     "name": "Samsung Galaxy A51 4/64GB (Black)",
     "price": 230,
-    "image": "../img/samsung 1.png"
+    "image": "../img/samsung-1.png"
   },
   {
     "name": "Samsung Galaxy A21S 3/32GB (Blue)",
     "price": 250,
-    "image": "../img/samsung 2.png"
+    "image": "../img/samsung-2.png"
   },
   {
     "name": "Samsung Galaxy S10Lite 6/128GB (Blue)",
     "price": 555,
-    "image": "../img/samsung 3.png"
+    "image": "../img/samsung-3.png"
   },
   {
     "name": "Samsung Galaxy A41 4/64GB (Blue)",
     "price": 237,
-    "image": "../img/samsung 4.png"
+    "image": "../img/samsung-4.png"
   }
 ]
