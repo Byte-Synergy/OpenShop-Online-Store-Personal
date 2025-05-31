@@ -2,21 +2,21 @@
   {
     "name": "Smart Watch W34 | ZM (White)",
     "price": 29,
-    "image": "../src/img/watch 2.png"
+    "image": "../img/watch 2.png"
   },
   {
     "name": "AirPods 2.1",
     "price": 135,
-    "image": "../src/img/airpods 2.png"
+    "image": "../img/airpods 2.png"
   },
   {
     "name": "Smart Watch W34 | ZM (Black)",
     "price": 39,
-    "image": "../src/img/watch 3.png"
+    "image": "../img/watch 3.png"
   },
   {
     "name": "Coffee machine VITEK VT-1526",
     "price": 78,
-    "image": "../src/img/cofemaker.png"
+    "image": "../img/cofemaker.png"
   }
 ]

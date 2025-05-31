@@ -1,4 +1,4 @@
-fetch("./src/js/samsung.json")
+fetch("./js/samsung.json")
   .then((res) => res.json())
   .then((samsung) => {
     const container = document.getElementById("samsung-list");

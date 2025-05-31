@@ -1,4 +1,4 @@
-fetch("./src/js/topSells.json")
+fetch("./js/topSells.json")
   .then((res) => res.json())
   .then((topSells) => {
     const container = document.getElementById("topSell-list");

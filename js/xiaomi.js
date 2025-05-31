@@ -1,4 +1,4 @@
-fetch("./src/js/xiaomi.json")
+fetch("./js/xiaomi.json")
   .then((res) => res.json())
   .then((xiaomi) => {
     const container = document.getElementById("xiaomi-list");

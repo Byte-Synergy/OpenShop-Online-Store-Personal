@@ -1,4 +1,4 @@
-fetch("./src/js/apple.json")
+fetch("./js/apple.json")
   .then((res) => res.json())
   .then((apple) => {
     const container = document.getElementById("apple-list");

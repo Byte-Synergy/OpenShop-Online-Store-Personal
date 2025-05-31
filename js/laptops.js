@@ -1,4 +1,4 @@
-fetch("./src/js/laptops.json")
+fetch("./js/laptops.json")
   .then((res) => res.json())
   .then((laptops) => {
     const container = document.getElementById("laptop-list");

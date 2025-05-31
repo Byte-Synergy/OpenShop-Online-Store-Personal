@@ -2,21 +2,21 @@
   {
     "name": "IPhone 12 Pro Max 128GB (Gray)",
     "price": 1300,
-    "image": "../src/img/iphone 1.png"
+    "image": "../img/iphone 1.png"
   },
   {
     "name": "IPhone 11 Pro 128GB (Yellow)",
     "price": 700,
-    "image": "../src/img/iphone 2.png"
+    "image": "../img/iphone 2.png"
   },
   {
     "name": "IPhone 12 Pro 256 GB (Blue)",
     "price": 1500,
-    "image": "../src/img/iphone 3.png"
+    "image": "../img/iphone 3.png"
   },
   {
     "name": "IPhone 11 Pro 256 GB (Red)",
     "price": 850,
-    "image": "../src/img/iphone 4.png"
+    "image": "../img/iphone 4.png"
   }
 ]
