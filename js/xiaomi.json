@@ -2,21 +2,21 @@
   {
     "name": "Mi 10t Pro 8/256GB (Black)",
     "price": 730,
-    "image": "../img/mi-1.png"
+    "image": "./img/mi-1.png"
   },
   {
     "name": "Xiaomi mi 10t Pro 8/256GB (Silver)",
     "price": 730,
-    "image": "../img/mi-2.png"
+    "image": "./img/mi-2.png"
   },
   {
     "name": "Mi 10 Lite 6/64GB (Grey)",
     "price": 327,
-    "image": "../img/mi-3.png"
+    "image": "./img/mi-3.png"
   },
   {
     "name": "Mi 10 Lite 6/64GB (Blue)",
     "price": 337,
-    "image": "../img/mi-4.png"
+    "image": "./img/mi-4.png"
   }
 ]
