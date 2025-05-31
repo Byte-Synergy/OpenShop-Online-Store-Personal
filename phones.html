@@ -55,7 +55,7 @@
       <!-- second header -->
       <div class="container mx-auto p-6">
         <div class="flex items-center lg:gap-72 md:gap-32 sm:gap-20 gap-2">
-          <a href="./index.html"><img src="./img/Logo.png" alt="logo" /></a>
+          <a href="./index.html"><img src="./src/img/Logo.png" alt="logo" /></a>
 
           <form class="flex items-center max-w-[630px] w-full justify-between">
             <input
@@ -259,7 +259,7 @@
             <div class="swiper-slide">
               <div class="flex items-center justify-between w-full h-full">
                 <div class="w-1/2">
-                  <img src="./img/hero img.png " alt="hero image" />
+                  <img src="./src/img/hero img.png " alt="hero image" />
                 </div>
                 <div
                   class="w-1/2 flex flex-col items-center gap-28 px-24 text-center"
@@ -279,7 +279,7 @@
             <div class="swiper-slide">
               <div class="flex items-center justify-between w-full h-full">
                 <div class="w-1/2">
-                  <img src="./img/watch4.png " alt="hero image" />
+                  <img src="./src/img/watch4.png " alt="hero image" />
                 </div>
                 <div
                   class="w-1/2 flex flex-col items-center gap-28 px-24 text-center"
@@ -299,7 +299,7 @@
             <div class="swiper-slide">
               <div class="flex items-center justify-between w-full h-full">
                 <div class="w-1/2">
-                  <img src="./img/hero img.png " alt="hero image" />
+                  <img src="./src/img/hero img.png " alt="hero image" />
                 </div>
                 <div
                   class="w-1/2 flex flex-col items-center gap-28 px-24 text-center"
@@ -374,37 +374,39 @@
       <!-- ps 5 banner section  -->
       <section class="relative">
         <div class="section-container">
-        <div class="relative w-full h-[500px]">
-          <div class="absolute top-0 left-0 w-full h-full z-20">
-            <h3 class="text-5xl font-semibold">Xbox Wireless Controller</h3>
-            <p class="text-2xl font-light mt-2">
-              Textured triggers and bumpers I Hybrid <br />
-              D-pad I Button mapping I Bluetooth
-            </p>
+          <div class="relative w-full h-[500px]">
+            <div class="absolute top-0 left-0 w-full h-full z-20">
+              <h3 class="text-5xl font-semibold">Xbox Wireless Controller</h3>
+              <p class="text-2xl font-light mt-2">
+                Textured triggers and bumpers I Hybrid <br />
+                D-pad I Button mapping I Bluetooth
+              </p>
+            </div>
+            <img
+              src="./src/img//joysticks.png"
+              alt="joysticks"
+              class="absolute top-0 right-0 left-0 bottom-0 w-full h-full object-cover z-10 pb-8"
+            />
+
+            <button
+              type="button"
+              class="text-lg px-12 py-3 bg-primary text-white mt-8 absolute bottom-2 left-0 z-20"
+            >
+              ADD TO CART
+            </button>
           </div>
-          <img
-            src="./img//joysticks.png"
-            alt="joysticks"
-            class="absolute top-0 right-0 left-0 bottom-0 w-full h-full object-cover z-10 pb-8"
-          />
-
-          <button
-            type="button"
-            class="text-lg px-12 py-3 bg-primary text-white mt-8 absolute bottom-2 left-0 z-20"
-          >
-            ADD TO CART
-          </button>
         </div>
-    </div>
-    <div class="absolute bottom-12 left-0 w-full h-[219px] bg-[#E3E3E3] -z-10"></div>
-    </section>
+        <div
+          class="absolute bottom-12 left-0 w-full h-[219px] bg-[#E3E3E3] -z-10"
+        ></div>
+      </section>
 
-    <!-- pagination section -->
-    <section class="section-container pt-0 pb-8">
-      <div class="flex justify-center">
-        <div id="pagination" class="flex gap-1"></div>
-      </div>
-    </section>
+      <!-- pagination section -->
+      <section class="section-container pt-0 pb-8">
+        <div class="flex justify-center">
+          <div id="pagination" class="flex gap-1"></div>
+        </div>
+      </section>
     </main>
 
     <!-- footer  -->
@@ -413,7 +415,9 @@
         <!-- upper footer  -->
         <div class="flex items-center justify-around gap-12">
           <div class="flex items-center lg:gap-72 md:gap-32 sm:gap-20 gap-2">
-            <a href="./index.html"><img src="./img/logo light.png" alt="logo" /></a>
+            <a href="./index.html"
+              ><img src="./src/img/logo light.png" alt="logo"
+            /></a>
 
             <!-- form input  -->
             <form class="flex items-start flex-col">
@@ -432,7 +436,6 @@
                 </button>
               </div>
             </form>
-
           </div>
           <!-- social media  -->
           <div class="flex items-center gap-4 text-4xl pr-[210px] pt-5">
@@ -460,6 +463,5 @@
     <script src="./js/samsung.js"></script>
     <script src="./js/apple.js"></script>
     <script src="./js/main.js"></script>
-
   </body>
 </html>

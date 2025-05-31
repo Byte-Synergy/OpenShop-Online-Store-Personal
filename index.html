@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Open Shop Online Store || Personal</title>
-    <link href="./css/output.css" rel="stylesheet" />
+    <link href="./src/css/output.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -54,9 +54,9 @@
       </div>
 
       <div class="container mx-auto p-6">
-          <!-- second header -->
+        <!-- second header -->
         <div class="flex items-center lg:gap-72 md:gap-32 sm:gap-20 gap-2">
-          <img src="./img/Logo.png" alt="logo" />
+          <img src="./src/img/Logo.png" alt="logo" />
 
           <form class="flex items-center max-w-[630px] w-full justify-between">
             <input
@@ -78,65 +78,181 @@
         <nav class="invisible lg:visible" id="header-nav">
           <ul class="flex items-center mt-8 gap-10 justify-center">
             <li class="text-primary text-lg relative">
-              <button class="dropdown-toggle" id="dropdown-toggle-1">Cell Phones</button>
-              <div class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 p-5 min-w-[300px] hidden z-50" id="dropdown-menu-1">
+              <button class="dropdown-toggle" id="dropdown-toggle-1">
+                Cell Phones
+              </button>
+              <div
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 p-5 min-w-[300px] hidden z-50"
+                id="dropdown-menu-1"
+              >
                 <div class="flex gap-16">
-              <ul>
-                <li><a href="./phones.html" class="text-base hover:underline">Cell Phones</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">Xiaomi</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">Apple</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">Samsung</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">Huawei</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">BQ</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">Nokia</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">Inoi</a></li>
-                <li><a href="./phones.html" class="text-sm font-light hover:underline">Vivo</a></li>
-              </ul>
-              <ul>
-                <li><a href="#" class="text-base hover:underline">Tablets</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">Xiaomi</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">Apple</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">Samsung</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">Huawei</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">BQ</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">Nokia</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">Inoi</a></li>
-                <li><a href="#" class="text-sm font-light hover:underline">Vivo</a></li>
-              </ul>
+                  <ul>
+                    <li>
+                      <a href="./phones.html" class="text-base hover:underline"
+                        >Cell Phones</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >Xiaomi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >Apple</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >Samsung</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >Huawei</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >BQ</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >Nokia</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >Inoi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="./phones.html"
+                        class="text-sm font-light hover:underline"
+                        >Vivo</a
+                      >
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#" class="text-base hover:underline">Tablets</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Xiaomi</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Apple</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Samsung</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Huawei</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >BQ</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Nokia</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Inoi</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Vivo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </div>
-              </div>
             </li>
             <li class="text-primary text-lg relative">
-              <button class="dropdown-toggle" id="dropdown-toggle-2">Computer&Laptops</button>
-              <ul class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50" id="dropdown-menu-2">
+              <button class="dropdown-toggle" id="dropdown-toggle-2">
+                Computer&Laptops
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-2"
+              >
                 <li><a href="#">Option 1</a></li>
                 <li><a href="#">Option 2</a></li>
               </ul>
             </li>
             <li class="text-primary text-lg relative">
-              <button class="dropdown-toggle" id="dropdown-toggle-3">Tv&Video</button>
-              <ul class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50" id="dropdown-menu-3">
+              <button class="dropdown-toggle" id="dropdown-toggle-3">
+                Tv&Video
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-3"
+              >
                 <li><a href="#">Option 1</a></li>
                 <li><a href="#">Option 2</a></li>
               </ul>
             </li>
             <li class="text-primary text-lg relative">
-              <button class="dropdown-toggle" id="dropdown-toggle-4">Asseccories</button>
-              <ul class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50" id="dropdown-menu-4">
+              <button class="dropdown-toggle" id="dropdown-toggle-4">
+                Asseccories
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-4"
+              >
                 <li><a href="#">Option 1</a></li>
                 <li><a href="#">Option 2</a></li>
               </ul>
             </li>
             <li class="text-primary text-lg relative">
-              <button class="dropdown-toggle" id="dropdown-toggle-5">Home appliance</button>
-              <ul class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50" id="dropdown-menu-5">
+              <button class="dropdown-toggle" id="dropdown-toggle-5">
+                Home appliance
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-5"
+              >
                 <li><a href="#">Option 1</a></li>
                 <li><a href="#">Option 2</a></li>
               </ul>
             </li>
             <li class="text-primary text-lg relative">
-              <button class="dropdown-toggle" id="dropdown-toggle-6">Video Games&Consoles</button>
-              <ul class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50" id="dropdown-menu-6">
+              <button class="dropdown-toggle" id="dropdown-toggle-6">
+                Video Games&Consoles
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-6"
+              >
                 <li><a href="#">Option 1</a></li>
                 <li><a href="#">Option 2</a></li>
               </ul>
@@ -161,7 +277,7 @@
             <div class="swiper-slide">
               <div class="flex items-center justify-between w-full h-full">
                 <div class="w-1/2">
-                  <img src="./img/hero img.png " alt="hero image" />
+                  <img src="./src/img/hero img.png " alt="hero image" />
                 </div>
                 <div
                   class="w-1/2 flex flex-col items-center gap-28 px-24 text-center"
@@ -181,7 +297,7 @@
             <div class="swiper-slide">
               <div class="flex items-center justify-between w-full h-full">
                 <div class="w-1/2">
-                  <img src="./img/watch4.png " alt="hero image" />
+                  <img src="./src/img/watch4.png " alt="hero image" />
                 </div>
                 <div
                   class="w-1/2 flex flex-col items-center gap-28 px-24 text-center"
@@ -201,7 +317,7 @@
             <div class="swiper-slide">
               <div class="flex items-center justify-between w-full h-full">
                 <div class="w-1/2">
-                  <img src="./img/hero img.png " alt="hero image" />
+                  <img src="./src/img/hero img.png " alt="hero image" />
                 </div>
                 <div
                   class="w-1/2 flex flex-col items-center gap-28 px-24 text-center"
@@ -232,7 +348,7 @@
             class="col-span-6 row-span-2 relative h-[500px] bg-[#00000040]/25 overflow-hidden"
           >
             <img
-              src="./img/watch 1.png"
+              src="./src/img/watch 1.png"
               alt="watch"
               class="absolute top-5 w-full h-full object-cover z-0"
             />
@@ -254,7 +370,7 @@
             class="col-span-6 relative h-[235px] bg-[#00000040]/25 overflow-hidden"
           >
             <img
-              src="./img/airpods1.png"
+              src="./src/img/airpods1.png"
               alt="airpods1"
               class="absolute inset-0 w-full h-full object-cover z-0"
             />
@@ -274,7 +390,7 @@
             class="col-span-3 relative h-[235px] bg-[#00000040]/25 overflow-hidden"
           >
             <img
-              src="./img/powerbank.png"
+              src="./src/img/powerbank.png"
               alt="item3"
               class="absolute inset-0 w-full h-full object-cover z-0"
             />
@@ -294,7 +410,7 @@
             class="col-span-3 relative h-[235px] bg-[#00000040]/25 overflow-hidden"
           >
             <img
-              src="./img/airtag.png"
+              src="./src/img/airtag.png"
               alt="item4"
               class="absolute inset-0 w-full h-full object-cover z-0"
             />
@@ -322,8 +438,7 @@
       </section>
 
       <!-- Cell Phones Section  -->
-      <section
-        class="section-container flex flex-col items-center gap-14">
+      <section class="section-container flex flex-col items-center gap-14">
         <div class="flex flex-col items-start gap-8">
           <h2 class="section-title">Cell Phone</h2>
           <!-- phones list  -->
@@ -363,7 +478,7 @@
       <section class="section-container flex items-center justify-around">
         <!-- left content  -->
         <div class="flex flex-col items-start justify-center gap-5">
-          <img src="./img/ps 5 logo.png" alt="ps 5 logo" />
+          <img src="./src/img/ps 5 logo.png" alt="ps 5 logo" />
           <h3 class="section-title pb-12">PlayStation 5 Console</h3>
           <button
             type="button"
@@ -373,7 +488,7 @@
           </button>
         </div>
         <!-- right content  -->
-        <div><img src="./img/ps 5.png" alt="ps 5" class="" /></div>
+        <div><img src="./src/img/ps 5.png" alt="ps 5" class="" /></div>
       </section>
 
       <!-- Top Seller Section  -->
@@ -404,7 +519,9 @@
         <div class="flex items-center justify-around gap-12">
           <div class="flex items-center justify-between gap-72">
             <div>
-            <a href="./index.html"><img src="./img/logo light.png" alt="logo" /></a>
+              <a href="./index.html"
+                ><img src="./src/img/logo light.png" alt="logo"
+              /></a>
             </div>
 
             <!-- form input  -->
@@ -424,7 +541,6 @@
                 </button>
               </div>
             </form>
-
           </div>
           <!-- social media  -->
           <div class="flex items-center gap-4 text-4xl pr-[210px] pt-5">
@@ -452,8 +568,6 @@
     <script src="./src/js/laptops.js"></script>
     <script src="./src/js/topSells.js"></script>
     <script src="./src/js/main.js"></script>
-    <script>
-
-    </script>
+    <script></script>
   </body>
 </html>
