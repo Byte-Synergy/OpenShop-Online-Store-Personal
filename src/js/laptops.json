@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Lenovo IdeaPad L3 15IML05",
+    "price": 1350,
+    "image": "../src/img/desktop 1.png"
+  },
+  {
+    "name": "Dream Machines G1650Ti-15UA65",
+    "price": 1430,
+    "image": "../src/img/desktop 2.png"
+  },
+  {
+    "name": "Apple MacBook Air 13 2020",
+    "price": 1723,
+    "image": "../src/img/desktop 3.png"
+  },
+  {
+    "name": "Dream Machines 15UA51",
+    "price": 1200,
+    "image": "../src/img/desktop 4.png"
+  }
+]

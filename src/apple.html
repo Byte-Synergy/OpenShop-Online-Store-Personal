@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Shop Online Store || Personal</title>
+    <link href="./css/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body class="dark:bg-gray-600 text-primary inset-0">
+    <!-- header  -->
+    <header>
+      <!-- first header -->
+      <div class="bg-primary text-white">
+        <div class="container mx-auto">
+          <nav>
+            <ul class="flex items-center justify-end gap-10 p-4">
+              <li>
+                <a href="#" class="flex items-center gap-1"
+                  ><i class="fa-solid fa-chevron-down"></i
+                  ><span>English</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="flex items-center gap-1">
+                  <i class="fa-solid fa-phone"></i
+                  ><span>(907) 555-0101</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="flex items-center gap-1">
+                  <i class="fa-solid fa-user-tie"></i><span>Sing in</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="flex items-center gap-1">
+                  <i class="fa-solid fa-cart-shopping"></i><span>Cart</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- second header -->
+      <div class="container mx-auto p-6">
+        <div class="flex items-center lg:gap-72 md:gap-32 sm:gap-20 gap-2">
+          <a href="./index.html"><img src="./img/Logo.png" alt="logo" /></a>
+
+          <form class="flex items-center max-w-[630px] w-full justify-between">
+            <input
+              type="text"
+              placeholder="What are you looking for?"
+              class="border border-[#313131] w-[70%] p-[10px]"
+            />
+            <button
+              type="button"
+              class="h-12 p-2 flex items-center gap-1 bg-primary lg:w-[30%] w-[50%]"
+            >
+              <i class="fa-solid fa-magnifying-glass text-white"></i>
+              <p class="text-white text-sm">SEARCH OUR STORE</p>
+            </button>
+          </form>
+        </div>
+        <!-- third header  -->
+        <nav class="invisible lg:visible" id="header-nav">
+          <ul class="flex items-center mt-8 gap-10 justify-center">
+            <li class="text-primary text-lg relative">
+              <button class="dropdown-toggle" id="dropdown-toggle-1">
+                Cell Phones
+              </button>
+              <div
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 p-5 min-w-[300px] hidden z-50"
+                id="dropdown-menu-1"
+              >
+                <div class="flex gap-16">
+                  <ul>
+                    <li>
+                      <a href="#" class="text-base hover:underline"
+                        >Cell Phones</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Xiaomi</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Apple</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Samsung</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Huawei</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >BQ</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Nokia</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Inoi</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Vivo</a
+                      >
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#" class="text-base hover:underline">Tablets</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Xiaomi</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Apple</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Samsung</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Huawei</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >BQ</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Nokia</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Inoi</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm font-light hover:underline"
+                        >Vivo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="text-primary text-lg relative">
+              <button class="dropdown-toggle" id="dropdown-toggle-2">
+                Computer&Laptops
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-2"
+              >
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+              </ul>
+            </li>
+            <li class="text-primary text-lg relative">
+              <button class="dropdown-toggle" id="dropdown-toggle-3">
+                Tv&Video
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-3"
+              >
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+              </ul>
+            </li>
+            <li class="text-primary text-lg relative">
+              <button class="dropdown-toggle" id="dropdown-toggle-4">
+                Asseccories
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-4"
+              >
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+              </ul>
+            </li>
+            <li class="text-primary text-lg relative">
+              <button class="dropdown-toggle" id="dropdown-toggle-5">
+                Home appliance
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-5"
+              >
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+              </ul>
+            </li>
+            <li class="text-primary text-lg relative">
+              <button class="dropdown-toggle" id="dropdown-toggle-6">
+                Video Games&Consoles
+              </button>
+              <ul
+                class="dropdown-menu absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 px-4 min-w-[200px] hidden z-50"
+                id="dropdown-menu-6"
+              >
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- iPhone Section -->
+      <section class="section-container flex items-center justify-center pb-0">
+        <div class="flex">
+          <!-- Left side thumbnails -->
+          <div class="flex flex-col gap-4 pt-14">
+            <img
+              src="./img/iphone 14 1.png"
+              alt="phone detail"
+              class="w-20 h-20 object-contain"
+            />
+            <img
+              src="./img/iphone 14 2.png"
+              alt="iPhone thumbnail 2"
+              class="w-20 h-20 object-cover"
+            />
+            <img
+              src="./img/iphone 14 3.png"
+              alt="iPhone thumbnail 3"
+              class="w-20 h-20 object-cover"
+            />
+          </div>
+
+          <!-- Main product image -->
+          <div class="pt-6">
+            <img
+              src="./img/iphone 1.png"
+              alt="phone"
+              class="w-[450px]"
+            />
+          </div>
+
+          <!-- Product details -->
+          <div class="flex flex-col gap-4">
+            <h1 class="text-3xl font-medium">
+              Apple iPhone 12 Pro Max 128GB (Gray)
+            </h1>
+            <p class="text-xl">1300$</p>
+
+            <div class="flex flex-col gap-2">
+              <h2 class="text-2xl font-medium">Product Highlights</h2>
+              <ul class="list-disc pl-5 space-y-1 text-sm font-light">
+                <li>128 GB ROM</li>
+                <li>17 cm (6.7 inch) Super Retina XDR Display</li>
+                <li>12MP + 12MP + 12MP | 12MP Front Camera</li>
+                <li>
+                  A14 Bionic Chip with Next Generation Neural Engine Processor
+                </li>
+                <li>Ceramic Shield</li>
+                <li>IP68 Water Resistance</li>
+                <li>All Screen OLED Display</li>
+                <li>
+                  The showcase for this product will begin from 14th November
+                  2020
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex gap-4">
+              <button class="bg-primary text-white px-8 py-3 flex items-center gap-2"><i class="fa-solid fa-cart-shopping"></i>CART</button>
+              <button class="bg-primary text-white px-8 py-3">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PlayStation Banner section -->
+      <section class="section-container pt-0">
+        <div class="flex items-center justify-around">
+          <div class="">
+            <img
+              src="./img/vr.png"
+              alt="PlayStation VR"
+              class="w-full"
+            />
+          </div>
+          <div class=" flex flex-col items-start justify-start gap-6">
+            <h2 class="text-5xl font-medium">Plastation VR</h2>
+            <p class="text-xl font-light pl-8">
+              Over 500 games and experiences and <br> counting. See them all
+            </p>
+            <button class="bg-primary text-white px-8 py-3 ml-[130px] mt-[115px] ">LEARN MORE</button>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+    <!-- footer  -->
+    <footer class="bg-primary text-white">
+      <div class="section-container flex flex-col items-center gap-12">
+        <!-- upper footer  -->
+        <div class="flex items-center justify-around gap-12">
+          <div class="flex items-center justify-between gap-72">
+            <a href="./index.html"><img src="./img/logo light.png" alt="logo" /></a>
+
+            <!-- form input  -->
+            <form class="flex items-start flex-col">
+              <label for="signup">Subscribe to Newslatter</label>
+              <div class="flex items-center">
+                <input
+                  type="text"
+                  id="signup"
+                  class="border border-white w-[330px] p-[10px] bg-white text-primary h-12"
+                />
+                <button
+                  type="button"
+                  class="h-12 p-2 w-[190px] text-center gap-1 bg-primary border border-white"
+                >
+                  <p class="text-white text-sm">Sign Up</p>
+                </button>
+              </div>
+            </form>
+
+          </div>
+          <!-- social media  -->
+          <div class="flex items-center gap-4 text-4xl pr-[210px] pt-5">
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+
+        <!-- lower footer  -->
+        <div class="pr-[250px]">
+          <nav>
+            <ul class="flex items-center justify-start gap-7">
+              <li><a href="#">News</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts  -->
+    <script src="./js/apple.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
